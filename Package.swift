@@ -17,6 +17,8 @@ let package = Package(
     targets: [
         .target(
             name: "TNKImagePickerController",
-            dependencies: []),
+            dependencies: [],
+	    path: "Sources/TNKImagePickerController/TNKImagePickerController",
+            publicHeadersPath: "Sources/TNKImagePickerController/TNKImagePickerController"),
     ]
 )
